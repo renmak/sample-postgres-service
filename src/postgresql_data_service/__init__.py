@@ -1,0 +1,2 @@
+"""Generated application package."""
+

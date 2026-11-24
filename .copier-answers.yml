@@ -1,0 +1,7 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v0.1.1
+_src_path: ./copier-local-lab/python-seed-template
+package_name: postgresql_data_service
+project_description: Python data service with pandas and async PostgreSQL support
+project_name: PostgreSQL Data Service
+project_slug: postgresql-data-service
