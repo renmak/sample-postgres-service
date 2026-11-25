@@ -1,2 +1,1 @@
 """Framework-neutral application plumbing."""
-

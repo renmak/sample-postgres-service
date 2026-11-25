@@ -12,7 +12,7 @@ class Settings(BaseSettings):
         env_file_encoding="utf-8",
         extra="ignore",
     )
-
+    service_environment: str = "local"
     database_url: PostgresDsn = PostgresDsn(
         "postgresql+asyncpg://postgres:postgres@localhost:5432/app"
     )
@@ -23,4 +23,3 @@ class Settings(BaseSettings):
 def get_settings() -> Settings:
     """Return the process-wide validated settings object."""
     return Settings()
-
